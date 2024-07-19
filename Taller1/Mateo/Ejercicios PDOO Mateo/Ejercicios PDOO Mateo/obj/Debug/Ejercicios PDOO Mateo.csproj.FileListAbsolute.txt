@@ -1,7 +1,0 @@
-C:\Users\B09S313est\Desktop\Ejercicios PDOO Mateo\Ejercicios PDOO Mateo\bin\Debug\Ejercicios PDOO Mateo.exe.config
-C:\Users\B09S313est\Desktop\Ejercicios PDOO Mateo\Ejercicios PDOO Mateo\bin\Debug\Ejercicios PDOO Mateo.exe
-C:\Users\B09S313est\Desktop\Ejercicios PDOO Mateo\Ejercicios PDOO Mateo\bin\Debug\Ejercicios PDOO Mateo.pdb
-C:\Users\B09S313est\Desktop\Ejercicios PDOO Mateo\Ejercicios PDOO Mateo\obj\Debug\Ejercicios PDOO Mateo.csproj.AssemblyReference.cache
-C:\Users\B09S313est\Desktop\Ejercicios PDOO Mateo\Ejercicios PDOO Mateo\obj\Debug\Ejercicios PDOO Mateo.csproj.CoreCompileInputs.cache
-C:\Users\B09S313est\Desktop\Ejercicios PDOO Mateo\Ejercicios PDOO Mateo\obj\Debug\Ejercicios PDOO Mateo.exe
-C:\Users\B09S313est\Desktop\Ejercicios PDOO Mateo\Ejercicios PDOO Mateo\obj\Debug\Ejercicios PDOO Mateo.pdb
