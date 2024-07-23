@@ -1,0 +1,14 @@
+C:\Users\USUARIO\source\repos\Ejercicio2Funciones\Ejercicio2Funciones\bin\Debug\net8.0\Ejercicio2Funciones.exe
+C:\Users\USUARIO\source\repos\Ejercicio2Funciones\Ejercicio2Funciones\bin\Debug\net8.0\Ejercicio2Funciones.deps.json
+C:\Users\USUARIO\source\repos\Ejercicio2Funciones\Ejercicio2Funciones\bin\Debug\net8.0\Ejercicio2Funciones.runtimeconfig.json
+C:\Users\USUARIO\source\repos\Ejercicio2Funciones\Ejercicio2Funciones\bin\Debug\net8.0\Ejercicio2Funciones.dll
+C:\Users\USUARIO\source\repos\Ejercicio2Funciones\Ejercicio2Funciones\bin\Debug\net8.0\Ejercicio2Funciones.pdb
+C:\Users\USUARIO\source\repos\Ejercicio2Funciones\Ejercicio2Funciones\obj\Debug\net8.0\Ejercicio2Funciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\source\repos\Ejercicio2Funciones\Ejercicio2Funciones\obj\Debug\net8.0\Ejercicio2Funciones.AssemblyInfoInputs.cache
+C:\Users\USUARIO\source\repos\Ejercicio2Funciones\Ejercicio2Funciones\obj\Debug\net8.0\Ejercicio2Funciones.AssemblyInfo.cs
+C:\Users\USUARIO\source\repos\Ejercicio2Funciones\Ejercicio2Funciones\obj\Debug\net8.0\Ejercicio2Funciones.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\source\repos\Ejercicio2Funciones\Ejercicio2Funciones\obj\Debug\net8.0\Ejercicio2Funciones.dll
+C:\Users\USUARIO\source\repos\Ejercicio2Funciones\Ejercicio2Funciones\obj\Debug\net8.0\refint\Ejercicio2Funciones.dll
+C:\Users\USUARIO\source\repos\Ejercicio2Funciones\Ejercicio2Funciones\obj\Debug\net8.0\Ejercicio2Funciones.pdb
+C:\Users\USUARIO\source\repos\Ejercicio2Funciones\Ejercicio2Funciones\obj\Debug\net8.0\Ejercicio2Funciones.genruntimeconfig.cache
+C:\Users\USUARIO\source\repos\Ejercicio2Funciones\Ejercicio2Funciones\obj\Debug\net8.0\ref\Ejercicio2Funciones.dll
