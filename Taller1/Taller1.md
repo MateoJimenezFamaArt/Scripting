@@ -223,6 +223,83 @@ namespace Test1
 }
 ~~~
 
+### Ejercicio 2 Funciones Jeronimo
+
+~~~
+using System;
+using System.Linq;
+
+class Programa
+{
+    static void Main()
+    {
+        float[] numeros = { -2.5f, 3.7f, 0.0f, 4.1f, 5.6f, -1.3f, 2.4f };
+
+        float promedio = CalcularPromedioPositivos(numeros);
+
+        Console.WriteLine($"El promedio de los números positivos es: {promedio}");
+    }
+
+    static float CalcularPromedioPositivos(float[] numeros)
+    {
+        var numerosPositivos = numeros.Where(n => n > 0).ToArray();
+
+        if (numerosPositivos.Length == 0)
+        {
+            Console.WriteLine("No hay números positivos en el array.");
+            return 0;
+        }
+
+        float promedio = numerosPositivos.Average();
+
+        return promedio;
+    }
+}
+~~~
+
+### Ejercicio 7 Cadenas Jeronimo
+
+~~~
+using System;
+
+class Programa
+{
+    static void Main()
+    {
+        Console.WriteLine("Ingrese una cadena de números enteros positivos separados por espacios:");
+        string entrada = Console.ReadLine();
+
+        if (string.IsNullOrWhiteSpace(entrada))
+        {
+            Console.WriteLine("La cadena no puede estar vacía.");
+            return;
+        }
+
+        string[] partes = entrada.Split(' ');
+
+        int[] numeros = new int[partes.Length];
+
+        for (int i = 0; i < partes.Length; i++)
+        {
+            if (int.TryParse(partes[i], out int num) && num > 0)
+            {
+                numeros[i] = num;
+            }
+            else
+            {
+                Console.WriteLine($"La parte '{partes[i]}' no es un número entero positivo.");
+                return;
+            }
+        }
+        Console.WriteLine("Array de números enteros positivos:");
+        foreach (int numero in numeros)
+        {
+            Console.WriteLine(numero);
+        }
+    }
+}
+~~~
+
 ### Teoria 1 Ejercicio 6 Esteban
 
 ~~~
