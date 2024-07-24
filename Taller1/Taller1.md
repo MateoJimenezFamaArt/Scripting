@@ -3,9 +3,9 @@
 
 ## Puntos 1 Mateo
 
-### Punto 11 (Enfocado en Funciones)
+### Ejercicio 11 (Enfocado en Funciones)
 
-'''
+~~~
 internal class Punto11
 {
 
@@ -103,10 +103,11 @@ internal class Punto11
     }
 
 }
-'''
+~~~
 
-### Punto 6 (Enfocado en condicionales y ciclos)
+### Ejercicio 6 (Enfocado en condicionales y ciclos)
 
+~~~
 internal class Punto6
     {
         static void Main(string[] args)
@@ -141,6 +142,107 @@ internal class Punto6
 
         }
     }
+~~~
+
+### Ejercicio 1 Esteban Matrices
+
+~~~
+namespace Test1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //Crear una matriz de tamaño NxM
+            //Llenarla de valores aleatorios (positivos y negativos)
+            //Recorrerla 1 por 1, verificando si cada elemento es negativo
+            //Negativo? Cambiar signo
+            //Proceder
+
+
+            
+            int n = 0;
+            int m = 0;
+
+            
+            Console.WriteLine("Ingrese el numero de filas");
+            n = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Ingrese el numero de columnas");
+            m = Convert.ToInt32(Console.ReadLine());
+
+            
+            int[,] Matrix = new int[n, m];
+            Random randNum = new Random();
+
+            
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < m; j++)
+                {
+                    Matrix[i, j] = randNum.Next(-1000, 1000);
+                }
+
+            }
+
+            
+            Console.WriteLine("La matriz creada es: ");
+
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < m; j++)
+                {
+                    Console.Write(Matrix[i, j] + "\t");
+                }
+                Console.WriteLine();
+            }
+
+           
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < m; j++)
+                {
+                    if (Matrix[i, j] < 0)
+                    {
+                        Matrix[i, j] = -Matrix[i, j]; 
+                    }
+                }
+            }
+
+            Console.WriteLine("Matriz Modificada: ");
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < m; j++)
+                {
+                    Console.Write(Matrix[i, j] + "\t");
+                }
+                Console.WriteLine();
+            }
+
+        }
+    }
+}
+~~~
+
+### Teoria 1 Ejercicio 6 Esteban
+
+~~~
+        int edad = 25;               // Entero
+        double altura = 1.75;        // Punto flotante
+        char inicial = 'A';          // Caracter
+        string nombre = "Juan";      // String
+        bool esEstudiante = true;    // Booleano
+
+        
+        Console.WriteLine("Edad: " + edad);
+        Console.WriteLine("Altura: " + altura);
+        Console.WriteLine("Inicial: " + inicial);
+        Console.WriteLine("Nombre: " + nombre);
+        Console.WriteLine("Es estudiante: " + esEstudiante);
+~~~
+
+### Teoria 2 Ejercicio 13 Esteban
+
+Dependiendo del tipo de array, su valor inicial seria distinto. Para uno de los casos mas comunes como un array o vector de numeros enteros, el valor inicial de los elementos dentro de el seria el 0, y se recorreria su indice desde el mismo valor, es decir, 0-1-2-3 etc.
 
 ## Punto 2 Ejercicio para entender funciones
 
@@ -155,7 +257,12 @@ las funciones puesto que nos muestran como al enviar una funcion con unos parame
 
 ## Punto 4 Firmas de Funciones
 
-1.
+1. public int Add(int a, int b) Invocacion: int result = Add(5, 3);
+2. public string Saludo(string name) Invocacion: string saludos = Saludo("Maria");
+3. public bool IsEven(int number) Invocacion: bool isEven = IsEven(6);
+4. public string Concatenate(string str1, string str2) Invocacion: string result = ConcatenateStrings("Hello", "World");
+5. public void SaludarMundo() Invocacion: SaludarMundo();
+6. public int SumarElementos(int[] numeros) Invocacion: int suma = SumarElementos(new int[] {1, 2, 3, 4, 5});
 
 ## Punto 5 Codigo Exquisito 
 
