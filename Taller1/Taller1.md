@@ -263,6 +263,16 @@ las funciones puesto que nos muestran como al enviar una funcion con unos parame
 4. public string Concatenate(string str1, string str2) Invocacion: string result = ConcatenateStrings("Hello", "World");
 5. public void SaludarMundo() Invocacion: SaludarMundo();
 6. public int SumarElementos(int[] numeros) Invocacion: int suma = SumarElementos(new int[] {1, 2, 3, 4, 5});
+7. public void Saludar(); Invoke: Saludar();
+8. public void Sumar(int a, int b); Invoke: Sumar(10,2);
+9. public int CalcularCuadrado(int Numero); Invoke: int resultado =CalcularCuadrado(4);
+10. public void ImprimirNombreCompleto(string Nombre, string Apellido = ""); Invoke : ImprimrNombreCompleto("Juan"); o ImprimrNombreCompleto("Juan", "Perez");
+11. public void Dividir(int dividendo, int divisor, out int cociente, out int residuo); Invoke : Dividir(10,2, out int resultado, out int resto);
+12. public void DuplicarNumero(ref int numero); Invoke: int num = ; DupliacrNumero (ref num);
+13. public int SumarNumeros(params int[] numeros); Invoke: int resultado = SumarNumero(1,2,3,4,); o SumarNumero(1,2);
+14. public void MostrarDatos(string nombre, int edad); Invoke: MostrarDatos(edad : 30, nombre : "Ana");
+15. public void AplicarOperacion(int a, int b, Func<int, int, int> operacion); Invoke : AplicarOperacion(5, 3, (x, y) => x + y);
+16. public T ObtenerMaximo<T>(T a, T b) where T : IComparable<T> Invoke : int maximo = ObtenerMaximo (3,5); O string mayor = ObtenerMaximo("Hola", "Mundo");
 
 ## Punto 5 Codigo Exquisito 
 
