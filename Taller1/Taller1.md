@@ -365,5 +365,5 @@ Participe a Medias (Esteban Cardoso)
 
 ## Punto 6 Presentacion Final
 
-En proceso...
+Presentación: https://www.canva.com/design/DAGMAgTWtlY/_OgZFE9Gy9vlvwr-sldU0A/edit?utm_content=DAGMAgTWtlY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
