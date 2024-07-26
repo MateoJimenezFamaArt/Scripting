@@ -350,6 +350,10 @@ las funciones puesto que nos muestran como al enviar una funcion con unos parame
 14. public void MostrarDatos(string nombre, int edad); Invoke: MostrarDatos(edad : 30, nombre : "Ana");
 15. public void AplicarOperacion(int a, int b, Func<int, int, int> operacion); Invoke : AplicarOperacion(5, 3, (x, y) => x + y);
 16. public T ObtenerMaximo<T>(T a, T b) where T : IComparable<T> Invoke : int maximo = ObtenerMaximo (3,5); O string mayor = ObtenerMaximo("Hola", "Mundo");
+17. Persona nuevaPersona = CrearPersona("Carlos", 30); Console.WriteLine($"Nombre: {nuevaPersona.Nombre}, Edad: {nuevaPersona.Edad}");
+18. Invocación: int numero = await ObtenerNumeroAsync(); Console.WriteLine(numero);
+19. Invocación: var resultado = ObtenerSumaYProducto(3, 4); Console.WriteLine($"Suma: {resultado.suma}, Producto: {resultado.producto}");
+20. int duplicadoInt = DuplicarValor(5); string duplicadoStr = DuplicarValor("Hola"); Console.WriteLine(duplicadoInt); Console.WriteLine(duplicadoStr);
 
 ## Punto 5 Codigo Exquisito 
 
